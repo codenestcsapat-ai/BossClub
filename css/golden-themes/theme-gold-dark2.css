@@ -1,0 +1,410 @@
+/* 
+ * GOLD DARK THEME - JAVÍTOTT VERZIÓ
+ * Színpszichológia: Luxus, mystery, exkluzivitás, éjszakai elegancia
+ * Használat: High-end coaching, exkluzív klubok, VIP szolgáltatások
+ */
+
+body.dark-theme {
+  background: #0a0a0a;
+  color: #f5f5f5;
+}
+
+/* ========================================
+   GLOBÁLIS VÁLTOZÓK FELÜLÍRÁSA
+   ======================================== */
+body.dark-theme {
+  --brand-gold: #d4af37;
+  --brand-navy: #0a0a0a;
+  --brand-cream: #1a1a1a;
+  
+  --white: #ffffff;
+  --black: #000000;
+  --gray-100: #1a1a1a;
+  --gray-200: #262626;
+  --gray-300: #333333;
+  --gray-400: #525252;
+  --gray-500: #737373;
+  --gray-600: #a3a3a3;
+  --gray-700: #d4d4d4;
+  --gray-800: #e5e5e5;
+  --gray-900: #f5f5f5;
+}
+
+/* ========================================
+   NAVIGÁCIÓ
+   ======================================== */
+body.dark-theme .navigation {
+  background: rgba(10, 10, 10, 0.98);
+  border-bottom-color: #262626;
+}
+
+body.dark-theme .navigation.scrolled {
+  background: rgba(10, 10, 10, 0.99);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+}
+
+body.dark-theme .logo {
+  color: white;
+}
+
+body.dark-theme .nav-links a:not(.nav-cta):not(.lang-link) {
+  color: #d4d4d4;
+}
+
+body.dark-theme .nav-links a:not(.nav-cta):not(.lang-link):hover {
+  color: #d4af37;
+}
+
+body.dark-theme .nav-links a:not(.nav-cta):not(.lang-link)::after {
+  background: #d4af37;
+}
+
+/* Language Switcher Dark Mode */
+body.dark-theme .lang-current {
+  background: #1a1a1a;
+  border-color: #333333;
+  color: #d4d4d4;
+}
+
+body.dark-theme .lang-current:hover {
+  background: #262626;
+  border-color: #d4af37;
+}
+
+body.dark-theme .lang-options {
+  background: #1a1a1a;
+  border-color: #333333;
+}
+
+body.dark-theme .lang-link {
+  color: #d4d4d4;
+  border-bottom-color: #262626;
+}
+
+body.dark-theme .lang-link:hover {
+  background: #d4af37;
+  color: #0a0a0a;
+}
+
+body.dark-theme .lang-link.current {
+  background: #262626;
+  color: #d4af37;
+}
+
+/* Dark Mode Toggle Button */
+body.dark-theme .dark-mode {
+  background: #1a1a1a;
+  border-color: #333333;
+}
+
+body.dark-theme .dark-mode:hover {
+  background: #262626;
+  border-color: #d4af37;
+}
+
+body.dark-theme .dark-mode svg {
+  color: #d4d4d4;
+}
+
+/* Mobile Menu */
+body.dark-theme .mobile-menu-btn {
+  color: #d4d4d4;
+  border-color: transparent;
+}
+
+body.dark-theme .mobile-menu-btn:hover {
+  background: #1a1a1a;
+  border-color: #333333;
+}
+
+body.dark-theme .mobile-menu {
+  background: #0a0a0a;
+  border-top-color: #262626;
+}
+
+body.dark-theme .mobile-menu a:not(.nav-cta):not(.lang-link) {
+  color: #d4d4d4;
+}
+
+body.dark-theme .mobile-menu a:not(.nav-cta):hover {
+  color: #d4af37;
+}
+
+body.dark-theme .mobile-menu li {
+  border-bottom-color: #262626;
+}
+
+body.dark-theme .mobile-menu .language-switcher {
+  border-top-color: #333333;
+}
+
+body.dark-theme .mobile-menu .dark-mode {
+  border-color: #333333;
+}
+
+/* ========================================
+   HERO SECTION
+   ======================================== */
+body.dark-theme .hero {
+  background: linear-gradient(135deg, #000000 0%, #1a1a1a 50%, #262626 100%);
+}
+
+body.dark-theme .hero-overlay {
+  background: linear-gradient(to top, #0a0a0a, transparent, rgba(10, 10, 10, 0.5));
+}
+
+body.dark-theme .hero-badge {
+  background: rgba(212, 175, 55, 0.15);
+  border-color: rgba(212, 175, 55, 0.4);
+}
+
+/* ========================================
+   STATS SECTION
+   ======================================== */
+body.dark-theme .stats-section {
+  background: #0a0a0a;
+  color: white;
+}
+
+body.dark-theme .stats-section::before {
+  background-image: 
+    linear-gradient(to right, rgba(212, 175, 55, 0.08) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(212, 175, 55, 0.08) 1px, transparent 1px);
+}
+
+body.dark-theme .section-header h2 {
+  color: white;
+}
+
+body.dark-theme .section-header p {
+  color: #a3a3a3;
+}
+
+body.dark-theme .stat-card {
+  background: #1a1a1a;
+  border-color: #333333;
+}
+
+body.dark-theme .stat-card:hover {
+  border-color: rgba(212, 175, 55, 0.5);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+}
+
+body.dark-theme .stat-icon {
+  background: rgba(212, 175, 55, 0.15);
+}
+
+body.dark-theme .stat-value {
+  color: #d4af37;
+}
+
+body.dark-theme .stat-label {
+  color: #a3a3a3;
+}
+
+/* ========================================
+   SERVICES SECTION
+   ======================================== */
+body.dark-theme .services-section {
+  background: linear-gradient(to bottom, #0a0a0a, #1a1a1a);
+}
+
+body.dark-theme .service-card {
+  background: #1a1a1a;
+  border-color: #333333;
+  color: white;
+}
+
+body.dark-theme .service-card:hover {
+  border-color: rgba(212, 175, 55, 0.5);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+}
+
+body.dark-theme .service-card h3 {
+  color: #d4af37;
+}
+
+body.dark-theme .service-card > p {
+  color: #a3a3a3;
+}
+
+body.dark-theme .service-features li {
+  color: #d4d4d4;
+}
+
+body.dark-theme .service-card .btn {
+  color: #d4d4d4;
+  border-color: #333333;
+  background: transparent;
+}
+
+body.dark-theme .service-card:hover .btn {
+  background: #d4af37;
+  color: #0a0a0a;
+  border-color: #d4af37;
+}
+
+/* ========================================
+   TESTIMONIALS SECTION
+   ======================================== */
+body.dark-theme .testimonials-section {
+  background: #1a1a1a;
+}
+
+body.dark-theme .testimonials-section::before {
+  opacity: 0.08;
+}
+
+body.dark-theme .testimonial-card {
+  background: rgba(255, 255, 255, 0.03);
+  border-color: rgba(255, 255, 255, 0.08);
+}
+
+body.dark-theme .testimonial-card:hover {
+  background: rgba(255, 255, 255, 0.06);
+}
+
+body.dark-theme .testimonial-content {
+  color: rgba(255, 255, 255, 0.85);
+}
+
+body.dark-theme .author-info .name {
+  color: white;
+}
+
+body.dark-theme .author-info .role {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+/* ========================================
+   CTA SECTION
+   ======================================== */
+body.dark-theme .cta-section {
+  background: linear-gradient(135deg, #d4af37 0%, #f0c755 50%, #d4af37 100%);
+}
+
+body.dark-theme .cta-content h2 {
+  color: #0a0a0a;
+}
+
+body.dark-theme .cta-content p {
+  color: rgba(10, 10, 10, 0.8);
+}
+
+/* ========================================
+   SUPPORTERS SECTION
+   ======================================== */
+body.dark-theme .supporters-section {
+  background: linear-gradient(to bottom, #0a0a0a, #1a1a1a);
+}
+
+body.dark-theme .supporters-section::before {
+  background-image: 
+    linear-gradient(to right, rgba(212, 175, 55, 0.05) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(212, 175, 55, 0.05) 1px, transparent 1px);
+}
+
+body.dark-theme .supporter-card {
+  background: #1a1a1a;
+  border-color: #333333;
+}
+
+body.dark-theme .supporter-card:hover {
+  border-color: #d4af37;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+}
+
+body.dark-theme .supporter-card::before {
+  background: linear-gradient(135deg, transparent, rgba(212, 175, 55, 0.08));
+}
+
+/* ========================================
+   FOOTER
+   ======================================== */
+body.dark-theme .footer {
+  background: #0a0a0a;
+}
+
+body.dark-theme .footer-brand h3 {
+  color: white;
+}
+
+body.dark-theme .footer-brand p {
+  color: #737373;
+}
+
+body.dark-theme .social-link {
+  background: rgba(255, 255, 255, 0.05);
+}
+
+body.dark-theme .social-link:hover {
+  background: #d4af37;
+  color: #0a0a0a;
+}
+
+body.dark-theme .footer-section h4 {
+  color: #d4af37;
+}
+
+body.dark-theme .footer-links a {
+  color: #737373;
+}
+
+body.dark-theme .footer-links a:hover {
+  color: #d4af37;
+}
+
+body.dark-theme .footer-bottom {
+  border-top-color: #1a1a1a;
+  color: #525252;
+}
+
+/* ========================================
+   COOKIE BANNER
+   ======================================== */
+body.dark-theme #cookie-banner {
+  background: #1a1a1a !important;
+  border-top-color: #333333 !important;
+}
+
+body.dark-theme #cookie-banner p {
+  color: #d4d4d4 !important;
+}
+
+body.dark-theme #cookie-banner a {
+  color: #d4af37 !important;
+}
+
+body.dark-theme #cookie-banner .reject-all {
+  background: #262626 !important;
+  color: #d4d4d4 !important;
+}
+
+/* ========================================
+   BUTTONS & INTERACTIVE ELEMENTS
+   ======================================== */
+body.dark-theme .btn-primary {
+  background: #d4af37;
+  color: #0a0a0a;
+}
+
+body.dark-theme .btn-secondary {
+  background: rgba(255, 255, 255, 0.08);
+  border-color: rgba(255, 255, 255, 0.2);
+}
+
+body.dark-theme .btn-secondary:hover {
+  background: rgba(255, 255, 255, 0.12);
+}
+
+body.dark-theme .nav-cta {
+  background: #d4af37;
+  color: #0a0a0a;
+}
+
+/* ========================================
+   SMOOTH TRANSITIONS
+   ======================================== */
+body.dark-theme * {
+  transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+}
