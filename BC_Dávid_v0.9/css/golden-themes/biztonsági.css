@@ -1,0 +1,172 @@
+/* 
+ * GOLD DARK THEME
+ * Színpszichológia: Luxus, mystery, exkluzivitás, éjszakai elegancia
+ * Használat: High-end coaching, exkluzív klubok, VIP szolgáltatások
+ * 
+ * Arany: Megtartva - gazdagság, siker, presztízs
+ * Mély fekete-szürke: Titokzatosság, luxus, kifinomultság
+ */
+
+:root {
+  /* Elsődleges márkaszínek - ARANY MEGMARAD */
+  --brand-gold: #d4af37;
+  --brand-navy: #0a0a0a; /* Mély fekete */
+  --brand-cream: #1a1a1a;
+  
+  /* Semleges színek - sötét skála */
+  --white: #ffffff;
+  --black: #000000;
+  --gray-100: #1a1a1a;
+  --gray-200: #262626;
+  --gray-300: #333333;
+  --gray-400: #525252;
+  --gray-500: #737373;
+  --gray-600: #a3a3a3;
+  --gray-700: #d4d4d4;
+  --gray-800: #e5e5e5;
+  --gray-900: #f5f5f5;
+  
+  /* Akcentszínek */
+  --accent-blue: #3b82f6;
+  --accent-purple: #8b5cf6;
+  --accent-orange: #f97316;
+  --accent-red: #dc2626;
+  --accent-green: #10b981;
+  --accent-teal: #14b8a6;
+}
+
+/* Gradiens felülírások */
+.hero {
+  background: linear-gradient(135deg, #000000 0%, #1a1a1a 50%, #262626 100%);
+}
+
+.cta-section {
+  background: linear-gradient(135deg, #d4af37 0%, #f0c755 50%, #d4af37 100%);
+}
+
+/* Stats szekció */
+.stats-section {
+  background: #0a0a0a;
+  color: white;
+}
+
+.stats-section::before {
+  background-image: 
+    linear-gradient(to right, rgba(212, 175, 55, 0.08) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(212, 175, 55, 0.08) 1px, transparent 1px);
+}
+
+.section-header h2 {
+  color: white;
+}
+
+.section-header p {
+  color: #a3a3a3;
+}
+
+.stat-card {
+  background: #1a1a1a;
+  border-color: #333333;
+}
+
+.stat-card:hover {
+  border-color: rgba(212, 175, 55, 0.5);
+}
+
+.stat-value {
+  color: #d4af37;
+}
+
+.stat-label {
+  color: #a3a3a3;
+}
+
+/* Services szekció */
+.services-section {
+  background: linear-gradient(to bottom, #0a0a0a, #1a1a1a);
+}
+
+.service-card {
+  background: #1a1a1a;
+  border-color: #333333;
+  color: white;
+}
+
+.service-card h3 {
+  color: #d4af37;
+}
+
+.service-card > p {
+  color: #a3a3a3;
+}
+
+.service-features li {
+  color: #d4d4d4;
+}
+
+.service-card .btn {
+  color: #d4d4d4;
+  border-color: #333333;
+}
+
+.service-card:hover .btn {
+  background: #d4af37;
+  color: #0a0a0a;
+  border-color: #d4af37;
+}
+
+/* Supporters szekció */
+.supporters-section {
+  background: #0a0a0a;
+}
+
+.supporters-section::before {
+  background-image: 
+    linear-gradient(to right, rgba(212, 175, 55, 0.05) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(212, 175, 55, 0.05) 1px, transparent 1px);
+}
+
+.supporters-section .section-header h2 {
+  color: white;
+}
+
+.supporters-section .section-header p {
+  color: #a3a3a3;
+}
+
+.supporter-card {
+  background: #1a1a1a;
+  border-color: #333333;
+}
+
+/* Navigáció */
+.navigation {
+  background: rgba(10, 10, 10, 0.98);
+  border-bottom-color: #262626;
+}
+
+.logo {
+  color: white;
+}
+
+.nav-links a:not(.nav-cta):not(.lang-link) {
+  color: #d4d4d4;
+}
+
+.nav-links a:not(.nav-cta):not(.lang-link):hover {
+  color: #d4af37;
+}
+
+.mobile-menu {
+  background: #0a0a0a;
+  border-top-color: #262626;
+}
+
+.mobile-menu a:not(.nav-cta):not(.lang-link) {
+  color: #d4d4d4;
+}
+
+/* Footer - már sötét az eredeti */
+.footer {
+  background: #0a0a0a;
+}
